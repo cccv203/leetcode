@@ -11,5 +11,10 @@ class Solution:
         return max_profift
 
 
+if __name__=='__main__':
+    nums=[7,1,5,3,6,4]
+    i = Solution().maxProfit(nums)
+    print(nums)    # [7, 1, 5, 3, 6, 4]
+    print(i)       # 7
 
 

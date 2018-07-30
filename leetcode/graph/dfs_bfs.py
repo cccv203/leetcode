@@ -86,8 +86,8 @@ if __name__ == '__main__':
     g.add_edge((6, 7))
     print( "nodes:", g.nodes())
 
-    # order = g.breadth_first_search(1)
-    order = g.depth_first_search(1)
+    order = g.breadth_first_search(1)
+    # order = g.depth_first_search(1)
 
 
 
